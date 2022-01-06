@@ -9,6 +9,7 @@ body{
     display:flex;
     flex-flow: row;
     margin-bottom:20px;
+    text-align: justify;
 
 
 }
@@ -47,9 +48,11 @@ h2{
 }
 .half-first-div{
     border-left: 2px solid tomato;
-    font-family: 'PT Serif', serif;
-    
-   
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+
+  
    
 }
 span{
@@ -63,7 +66,7 @@ span{
    
 }
 .my-mission h1{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-weight: 800;
 
 }
@@ -72,10 +75,11 @@ span{
     display:flex;
     margin-left: 50px;
     margin-right:50px;
+    width:100%;
 }
 .slice-div-first{
    
-  
+    width:26%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
@@ -113,7 +117,7 @@ span{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: left;
-    
+    text-align: justify;
     background-size:200px;
     background-position-x: 70px;
     
@@ -140,4 +144,72 @@ span{
 }
 .half-third-portion-scaling{
     margin-left:-450px;
+}
+.last-part{
+    display:flex;
+    text-align: justify;
+    margin-top: -70px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    background-size:150px;
+    background-position-y:50vh;
+
+}
+.last-portion-half{
+    
+    border-radius: 10px;
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    margin-left:-150px;
+}
+.newpart{
+    background-image: url(images/shapes/newpart-bg.jpg);
+    color:black;
+    text-align: center;
+    width:100%;
+    margin-top:100px;
+    display:block;
+    padding-top:200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+}
+.newpartp{
+    width:50%;
+    position:center;
+    margin-left:500px;
+
+}
+.newpartp p{
+
+    font-size: 30px;
+    border: 3px solid tomato;
+  
+   
+
+
+}
+footer{
+    background-color: black;
+    
+}
+footer h1{
+    font-family: 'Yellowtail', cursive;
+}
+
+
+.footer-part{
+    text-align: center;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-part span{
+    color:tomato;
 }
